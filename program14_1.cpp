@@ -29,7 +29,7 @@ int main(){
     display(v);
 
     //Add one more value 
-    v.push_back(6.6);
+    v.push_back(6.49654);
 
     //Display size and contents 
     cout<<"\nSize = "<<v.size()<<endl;
@@ -42,10 +42,11 @@ int main(){
     v.insert(itr, 1,9);
 
     //display the contents 
-    cout<<"\nContents aftger inserting : "<<endl;
+    cout<<"\nContents after inserting : "<<endl;
     display(v);
 
     //Removing 4th and 5th elements
+    cout<<"Removing 4th and 5th elements."<<endl;
     v.erase(v.begin()+3,v.begin()+5);
 
     //Display the contents 
